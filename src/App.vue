@@ -4,10 +4,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link to="/" class="nav-link">Home</router-link>
+            <router-link to="/home" class="nav-link">Home</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/about" class="nav-link">Sobre mim</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/projetos" class="nav-link">Projetos</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/contact" class="nav-link">Contatos</router-link>
@@ -32,7 +35,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffff;
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(45deg, #000000, #062f4f, #813772, #b82601);
   background-size: 300% 300%;
   animation: animateBackground 10s ease infinite;
@@ -61,5 +64,18 @@ ul.navbar-nav {
   display: flex;
   width: 50vw;
   justify-content: space-between;
+}
+
+.nav-link{
+  color: white;
+  padding: 0px;
+  font-size: 20px;
+  transition: ease 100ms;
+}
+
+.router-link-active{
+  font-size: 25px;
+  border: none;
+  border-bottom: 1px solid white;
 }
 </style>

@@ -4,9 +4,10 @@
 
 <style>
   h1#contact{
-    color: white;
-    padding: 40px 0px;
-    border: 5px solid white;
-    margin: 50px;
+    color: #b82601;
+    padding: 20px 20px;
+    border: 5px solid #b82601;
+    margin: 50px 30vw;
+    margin-top: 30vh;
   }
 </style>
