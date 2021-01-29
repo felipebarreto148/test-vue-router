@@ -5,17 +5,6 @@
   </h1>
 </template>
 
-<script>
-new Vue({
-  el: '#home',
-  methods: {
-    digitation: function(){
-      console.log(this);
-    }
-  },
-});
-</script>
-
 <style>
 h1#home {
   color: #000000;

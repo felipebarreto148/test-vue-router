@@ -49,10 +49,6 @@
 <style>
 .grid {
   display: grid;
-  grid-template-columns: 20% 20% 20%;
-}
-
-.teste:hover{
-  background: red;
+  grid-template-columns: 30% 30% 30%;
 }
 </style>
