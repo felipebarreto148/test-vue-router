@@ -10,6 +10,7 @@ import Contact from './components/pages/Contact.vue';
 
 let router = new VueRouter({
     routes: [
+        {path: '/', component: Home},
         {path: '/home', component: Home},
         {path: '/about', component: About},
         {path: '/projetos', component: Projetos},
